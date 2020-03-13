@@ -5,7 +5,7 @@ void main()
 	const int n = 5;
 	int arr[n];
 	int buffer=0;
-std::cout << "Ââåäèòå 5 öåëûõ ÷èñåë: ";
+std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ 5 Ã¶Ã¥Ã«Ã»Ãµ Ã·Ã¨Ã±Ã¥Ã«: ";
 	for (int i = 0; i < n; i++)
 	{
 		std::cin >> arr[i];	
@@ -21,5 +21,5 @@ std::cout << "Ââåäèòå 5 öåëûõ ÷èñåë: ";
 			buffer = arr[i];
 		}
 	}
-	std::cout << "Buffer: " << buffer << std::endl;
+	std::cout << "Min: " << buffer << std::endl;
 }
