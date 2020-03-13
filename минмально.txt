@@ -1,0 +1,25 @@
+#include <iostream>
+void main()
+{
+	setlocale(LC_ALL, "");
+	const int n = 5;
+	int arr[n];
+	int buffer=0;
+std::cout << "¬ведите 5 целых чисел: ";
+	for (int i = 0; i < n; i++)
+	{
+		std::cin >> arr[i];	
+	}
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] > arr[i + 1])
+		{
+			buffer == arr[i + 1];
+		}
+		else
+		{
+			buffer = arr[i];
+		}
+	}
+	std::cout << "Buffer: " << buffer << std::endl;
+}
